@@ -78,8 +78,8 @@ jobs:
                       # Nội dung giới thiệu
                       "description": (
                           "🎉 **Một phiên bản mới của s82Siren đã được phát hành!**\n\n"
-                          "Hãy cập nhật lên phiên bản mới nhất để nhận "
-                          "những tính năng và sửa lỗi mới."
+                          "Điều khiển đèn ưu tiên, còi, kèn và xi nhan cho xe cảnh sát / cứu thương / cứu hỏa\n\n" 
+                          "Gọn trong 1 resource duy nhất , nhẹ, đồng bộ mượt cho mọi người chơi xung quanh."
                       ),
 
                       # Màu Embed - Sakura Pink
