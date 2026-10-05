@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>S82 Siren</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ================= HUD ================= -->
+    <div id="hud" class="hidden">
+        <div class="hud-head">
+            <span class="brand"><i class="petal-ico"></i><b>S82</b> <span data-label="title">SIREN</span></span>
+            <span class="lights" id="hud-lights">
+                <i class="strobe l"></i><i class="strobe r"></i>
+                <span data-label="lights">ĐÈN</span>
+            </span>
+        </div>
+        <div class="hud-body">
+            <div class="tile main" id="hud-siren">
+                <span class="tile-label" data-label="siren">CÒI</span>
+                <span class="tile-value" id="hud-tone">Chờ</span>
+            </div>
+            <div class="tile" id="hud-aux">
+                <span class="tile-label" data-label="aux">PHỤ</span>
+                <span class="tile-value small" id="hud-aux-tone">—</span>
+            </div>
+            <div class="tile icon" id="hud-horn">
+                <svg viewBox="0 0 24 24"><path d="M3 10v4h3l5 4V6L6 10H3zm13.5 2A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z"/></svg>
+                <span class="tile-label" data-label="horn">KÈN</span>
+            </div>
+            <div class="tile icon" id="hud-lock">
+                <svg viewBox="0 0 24 24"><path d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm-3 8V7a3 3 0 0 1 6 0v3H9z"/></svg>
+                <span class="tile-label" data-label="lock">KHÓA</span>
+            </div>
+        </div>
+        <div class="move-hint" id="move-hint"></div>
+    </div>
+
+    <!-- ================= MENU ================= -->
+    <div id="menu" class="hidden">
+        <div class="menu-header">
+            <div class="petals"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="menu-title"><i class="petal-ico big"></i><span id="menu-title">S82 SIREN</span></div>
+            <div class="menu-tag">Peach Blossom City</div>
+        </div>
+        <div class="menu-sub">
+            <span id="menu-subtitle"></span>
+            <span id="menu-count"></span>
+        </div>
+        <div class="menu-items" id="menu-items"></div>
+        <div class="menu-desc" id="menu-desc"></div>
+        <div class="menu-keys">↑↓ chọn · ←→ đổi · Enter · Backspace</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
